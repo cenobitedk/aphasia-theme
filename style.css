@@ -1,0 +1,155 @@
+@import url("../vortex/style.css");
+
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+/*
+Theme Name: Vortex - Aphasia
+Theme URI: http://wpvortex.com/vortex/
+Description: Vortex - Aphasia is a child theme for Vortex.
+Template: vortex
+Version: 0.2
+*/
+/* FONTS */
+/* @import url(http://fonts.googleapis.com/css?family=Fjalla+One); */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ccc;
+  background: #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #EEE;
+  font-weight: normal;
+  clear: none;
+}
+a,
+a:visited {
+  color: #6ecee5;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #94eaff;
+}
+#nav,
+.menu ul li {
+  background-color: #111;
+  border-color: #94eaff;
+}
+.menu ul li {
+  border: none;
+}
+.menu {
+  width: auto !important;
+  display: inline-block;
+}
+#nav .grid_16,
+#footer .container_16 {
+  text-align: center;
+}
+#header:after {
+  content: url(tagline.png);
+  position: relative;
+  left: 50%;
+  top: 20px;
+  margin-left: -470px;
+}
+.menu ul a,
+.menu ul a:visited {
+  color: #EEE;
+}
+.menu ul a:hover,
+.menu ul a:focus,
+.menu ul a:active {
+  color: #94eaff;
+}
+#sidebar a,
+#sidebar a:visited {
+  color: #6ecee5;
+}
+#sidebar a:hover,
+#sidebar a:focus,
+#sidebar a:active {
+  color: #94eaff;
+}
+#loop_meta_wrapper {
+  border-color: #94eaff;
+}
+.entry-title,
+.widget .widget-title {
+  border-color: #94eaff;
+  color: #EEE;
+}
+.entry-title {
+  font-size: 26px;
+  line-height: 30px;
+}
+.entry-title a,
+.entry-title a:visited {
+  color: #6ecee5;
+}
+.entry-title a:focus,
+.entry-title a:hover {
+  color: #94eaff;
+}
+.entry-meta a:hover,
+.entry-meta a:focus {
+  color: #94eaff;
+}
+.cat-links a,
+.tag-links a,
+.cat-links a:visited,
+.tag-links a:visited {
+  color: #6ecee5;
+}
+.cat-links a:focus,
+.tag-links a:focus,
+.cat-links a:hover,
+.tag-links a:hover {
+  color: #94eaff;
+}
+hr {
+  background-color: #94eaff;
+  border: none;
+  height: 1px;
+}
+.type-post,
+.type-page {
+  background-color: #000;
+  padding: 10px 10px 30px;
+  margin-bottom: 50px;
+}
+#sidebar {
+  padding-left: 40px;
+}
+.widget {
+  margin-bottom: 40px;
+  padding: 10px;
+  background-color: #000;
+}
+#footer {
+  border-color: #94eaff;
+  background-color: #111;
+  padding-bottom: 50px;
+}
+#footer p {
+  text-align: center;
+}
+#footer .social-links {
+  padding: 20px 0;
+}
+#footer .social-links a {
+  padding: 20px;
+  margin: -2px;
+  border: 1px solid #94eaff;
+  border-width: 1px 0;
+}
+.commentlist li.comment,
+.commentlist li.pingback {
+  border: none;
+  background-color: #000;
+}

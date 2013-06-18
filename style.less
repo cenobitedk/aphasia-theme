@@ -1,0 +1,211 @@
+/*
+Theme Name: Vortex - Aphasia
+Theme URI: http://wpvortex.com/vortex/
+Description: Vortex - Aphasia is a child theme for Vortex.
+Template: vortex
+Version: 0.2
+*/
+
+@darkblue: #2944cc;
+@blue: #6ecee5;
+@lightblue: #94eaff;
+@cyan: #00cccc;
+@lightcyan: #00e5e5;
+
+
+@link: @blue;
+@linkhover: @lightblue;
+@border: @lightblue;
+
+
+@import url("../vortex/style.css");
+
+/* FONTS */
+/* @import url(http://fonts.googleapis.com/css?family=Fjalla+One); */
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+body { 
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ccc;
+	background: #000;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	// font-family: 'Fjalla One', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	// font-family: 'Cabin', sans-serif;
+	color: #EEE;
+	font-weight: normal;
+	clear: none;
+}
+
+a, 
+a:visited {
+	color: @link;
+}
+
+a:hover, 
+a:focus,
+a:active {
+	color: @linkhover;
+}
+
+
+#nav,
+.menu ul li {
+	background-color: #111;
+	border-color: @border;
+}
+.menu ul li {
+	border: none;
+}
+.menu {
+	width: auto !important;
+	display: inline-block;
+}
+#nav .grid_16,
+#footer .container_16 {
+	text-align: center;
+}
+
+#header:after {
+	content: url(tagline.png);
+	position: relative;
+	left: 50%;
+	top: 20px;
+	margin-left: -470px;
+}
+
+.menu ul {
+	a, 
+	a:visited {
+		color: #EEE;
+	}
+
+	a:hover, 
+	a:focus,
+	a:active {
+		color: @linkhover;
+	}
+
+}
+
+#sidebar {
+	a,
+	a:visited {
+		color: @link;
+	}
+
+	a:hover, 
+	a:focus,
+	a:active {
+		color: @linkhover;
+	}
+
+}
+
+
+#loop_meta_wrapper {
+	border-color: @border;
+}
+
+
+.entry-title,
+.widget .widget-title {
+	border-color: @border;
+	color: #EEE;
+}
+
+
+.entry-title {
+	font-size: 26px;
+	line-height: 30px;
+
+	a,
+	a:visited {
+		color: @link;
+	}
+
+	a:focus,
+	a:hover {
+		color: @linkhover;
+	}
+}
+
+
+.entry-meta {
+	a:hover,
+	a:focus {
+		color: @linkhover;
+	}
+}
+
+.cat-links,
+.tag-links {
+	a,
+	a:visited {
+		color: @link;
+	}
+
+	a:focus,
+	a:hover {
+		color: @linkhover;
+	}
+}
+
+
+hr {
+  background-color: @border;
+  border: none;
+  height: 1px;
+}
+
+.type-post,
+.type-page {
+	background-color: #000;
+	padding: 10px 10px 30px;
+	margin-bottom: 50px;
+}
+
+#sidebar {
+	padding-left: 40px;
+}
+
+.widget {
+	margin-bottom: 40px;
+	padding: 10px;
+	background-color: #000;
+}
+
+#footer {
+	border-color: @border;
+	background-color: #111;
+	padding-bottom: 50px;
+
+	p {
+		text-align: center;
+	}
+
+	.social-links {
+		padding: 20px 0;
+
+		a {
+			padding: 20px;
+			margin: -2px;
+			border: 1px solid @border;
+			border-width: 1px 0;
+		}
+	}	
+
+}
+
+
+.commentlist {
+
+	li.comment, 
+	li.pingback {
+		border: none;
+		background-color: #000;
+	}
+}
