@@ -111,9 +111,14 @@ a:active {
 
 #loop_meta_wrapper {
 	border-color: @border;
+
+	#loop-meta {
+		background: url(images/bg-fade.png) top center repeat-y;
+	}
+
 }
 
-
+.loop-meta-title,
 .entry-title,
 .widget .widget-title {
 	border-color: @border;
@@ -196,6 +201,10 @@ input[type="button"]:active,
 }
 
 
+code {
+	font-family: monospace;
+	color: @link;
+}
 
 hr {
   background-color: @border;
@@ -204,7 +213,9 @@ hr {
 }
 
 .type-post,
-.type-page {
+.type-page,
+.no-results,
+.not-found {
 	background-color: @elementbg;
 	padding: 10px 10px 30px;
 	margin-bottom: 50px;

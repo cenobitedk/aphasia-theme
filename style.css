@@ -79,6 +79,10 @@ a:active {
 #loop_meta_wrapper {
   border-color: #411263;
 }
+#loop_meta_wrapper #loop-meta {
+  background: url(images/bg-fade.png) top center repeat-y;
+}
+.loop-meta-title,
 .entry-title,
 .widget .widget-title {
   border-color: #411263;
@@ -147,13 +151,19 @@ input[type="button"]:active,
   border-color: #94eaff;
   color: #000;
 }
+code {
+  font-family: monospace;
+  color: #6ecee5;
+}
 hr {
   background-color: #411263;
   border: none;
   height: 1px;
 }
 .type-post,
-.type-page {
+.type-page,
+.no-results,
+.not-found {
   background-color: #000000;
   padding: 10px 10px 30px;
   margin-bottom: 50px;
