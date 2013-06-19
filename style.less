@@ -11,11 +11,14 @@ Version: 0.2
 @lightblue: #94eaff;
 @cyan: #00cccc;
 @lightcyan: #00e5e5;
+@purple: #411263;
 
 
 @link: @blue;
 @linkhover: @lightblue;
-@border: @lightblue;
+@border: @purple;
+
+@elementbg: #000;
 
 
 @import url("../vortex/style.css");
@@ -54,7 +57,7 @@ a:active {
 
 #nav,
 .menu ul li {
-	background-color: #111;
+	background-color: @elementbg;
 	border-color: @border;
 }
 .menu ul li {
@@ -155,6 +158,45 @@ a:active {
 }
 
 
+button, 
+input[type="submit"], 
+input[type="reset"], 
+input[type="button"],
+#loop-nav-numeric a, 
+#loop-nav-next-prev a, 
+#loop-nav-singlular-post a, 
+#loop-nav-singular a, 
+#comments-nav-below a, 
+.page-link a span, 
+.page-link span, 
+.nav-numeric span {
+	background-color: @link;
+	border-color: @link;
+	color: #000;
+}
+
+button:hover, 
+input[type="submit"]:hover, 
+input[type="reset"]:hover, 
+input[type="button"]:hover, 
+button:active, 
+input[type="submit"]:active, 
+input[type="reset"]:active, 
+input[type="button"]:active,
+#loop-nav-numeric a:hover, 
+#loop-nav-next-prev a:hover, 
+#loop-nav-singlular-post a:hover, 
+#loop-nav-singular a:hover, 
+#comments-nav-below a:hover, 
+.page-link a:hover, 
+.page-link a span:hover {
+	background-color: @linkhover;
+	border-color: @linkhover;
+	color: #000;
+}
+
+
+
 hr {
   background-color: @border;
   border: none;
@@ -163,7 +205,7 @@ hr {
 
 .type-post,
 .type-page {
-	background-color: #000;
+	background-color: @elementbg;
 	padding: 10px 10px 30px;
 	margin-bottom: 50px;
 }
@@ -175,12 +217,12 @@ hr {
 .widget {
 	margin-bottom: 40px;
 	padding: 10px;
-	background-color: #000;
+	background-color: @elementbg;
 }
 
 #footer {
 	border-color: @border;
-	background-color: #111;
+	background-color: @elementbg;
 	padding-bottom: 50px;
 
 	p {
@@ -188,14 +230,34 @@ hr {
 	}
 
 	.social-links {
-		padding: 20px 0;
+		padding: 10px 0;
+		margin: 0;
 
 		a {
-			padding: 20px;
-			margin: -2px;
-			border: 1px solid @border;
-			border-width: 1px 0;
+
+			img { 
+				padding: 15px;
+				margin: -2px;
+				border: 1px solid @border;
+				border-width: 1px 0;
+				-webkit-filter: grayscale(0.4);
+				filter: grayscale(0.4);
+			}
+
+			&:hover img {
+				-webkit-filter: grayscale(0);
+				filter: grayscale(0);
+			}
+
+			&:first-child img {
+				padding-left: 20px;
+			}
+			&:last-child img {
+				padding-right: 20px;
+			}
+
 		}
+
 	}	
 
 }
@@ -206,6 +268,6 @@ hr {
 	li.comment, 
 	li.pingback {
 		border: none;
-		background-color: #000;
+		background-color: @elementbg;
 	}
 }

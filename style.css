@@ -37,8 +37,8 @@ a:active {
 }
 #nav,
 .menu ul li {
-  background-color: #111;
-  border-color: #94eaff;
+  background-color: #000000;
+  border-color: #411263;
 }
 .menu ul li {
   border: none;
@@ -77,11 +77,11 @@ a:active {
   color: #94eaff;
 }
 #loop_meta_wrapper {
-  border-color: #94eaff;
+  border-color: #411263;
 }
 .entry-title,
 .widget .widget-title {
-  border-color: #94eaff;
+  border-color: #411263;
   color: #EEE;
 }
 .entry-title {
@@ -112,14 +112,49 @@ a:active {
 .tag-links a:hover {
   color: #94eaff;
 }
-hr {
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+#loop-nav-numeric a,
+#loop-nav-next-prev a,
+#loop-nav-singlular-post a,
+#loop-nav-singular a,
+#comments-nav-below a,
+.page-link a span,
+.page-link span,
+.nav-numeric span {
+  background-color: #6ecee5;
+  border-color: #6ecee5;
+  color: #000;
+}
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+#loop-nav-numeric a:hover,
+#loop-nav-next-prev a:hover,
+#loop-nav-singlular-post a:hover,
+#loop-nav-singular a:hover,
+#comments-nav-below a:hover,
+.page-link a:hover,
+.page-link a span:hover {
   background-color: #94eaff;
+  border-color: #94eaff;
+  color: #000;
+}
+hr {
+  background-color: #411263;
   border: none;
   height: 1px;
 }
 .type-post,
 .type-page {
-  background-color: #000;
+  background-color: #000000;
   padding: 10px 10px 30px;
   margin-bottom: 50px;
 }
@@ -129,27 +164,40 @@ hr {
 .widget {
   margin-bottom: 40px;
   padding: 10px;
-  background-color: #000;
+  background-color: #000000;
 }
 #footer {
-  border-color: #94eaff;
-  background-color: #111;
+  border-color: #411263;
+  background-color: #000000;
   padding-bottom: 50px;
 }
 #footer p {
   text-align: center;
 }
 #footer .social-links {
-  padding: 20px 0;
+  padding: 10px 0;
+  margin: 0;
 }
-#footer .social-links a {
-  padding: 20px;
+#footer .social-links a img {
+  padding: 15px;
   margin: -2px;
-  border: 1px solid #94eaff;
+  border: 1px solid #411263;
   border-width: 1px 0;
+  -webkit-filter: grayscale(0.4);
+  filter: grayscale(0.4);
+}
+#footer .social-links a:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+#footer .social-links a:first-child img {
+  padding-left: 20px;
+}
+#footer .social-links a:last-child img {
+  padding-right: 20px;
 }
 .commentlist li.comment,
 .commentlist li.pingback {
   border: none;
-  background-color: #000;
+  background-color: #000000;
 }
