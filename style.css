@@ -176,6 +176,10 @@ hr {
   padding: 10px;
   background-color: #000000;
 }
+.widget.tight {
+  margin: 0;
+}
+
 #footer {
   border-color: #411263;
   background-color: #000000;
@@ -211,3 +215,12 @@ hr {
   border: none;
   background-color: #000000;
 }
+
+#post-42 h3 {
+  display: inline;
+}
+#post-42 h3 + p {
+  display: inline;
+  color: #666;
+}
+
