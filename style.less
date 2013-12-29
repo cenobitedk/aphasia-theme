@@ -3,7 +3,7 @@ Theme Name: Vortex - Aphasia
 Theme URI: http://wpvortex.com/vortex/
 Description: Vortex - Aphasia is a child theme for Vortex.
 Template: vortex
-Version: 0.2
+Version: 0.2.1
 */
 
 @darkblue: #2944cc;
@@ -129,6 +129,7 @@ a:active {
 .entry-title {
 	font-size: 26px;
 	line-height: 30px;
+	text-transform: none;
 
 	a,
 	a:visited {
@@ -229,6 +230,10 @@ hr {
 	margin-bottom: 40px;
 	padding: 10px;
 	background-color: @elementbg;
+
+	&.tight {
+		margin: 0;
+	}
 }
 
 #footer {
@@ -273,7 +278,6 @@ hr {
 
 }
 
-
 .commentlist {
 
 	li.comment, 
@@ -282,3 +286,17 @@ hr {
 		background-color: @elementbg;
 	}
 }
+
+
+/* SPECIFIC RULES */
+
+#post-42 h3 {
+  	display: inline;
+}
+
+#post-42 h3 + p {
+  	display: inline;
+  	color: #666;
+}
+
+

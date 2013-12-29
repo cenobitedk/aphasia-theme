@@ -1,12 +1,11 @@
 @import url("../vortex/style.css");
-
 @import url(http://fonts.googleapis.com/css?family=Cabin);
 /*
 Theme Name: Vortex - Aphasia
 Theme URI: http://wpvortex.com/vortex/
 Description: Vortex - Aphasia is a child theme for Vortex.
 Template: vortex
-Version: 0.2
+Version: 0.2.1
 */
 /* FONTS */
 /* @import url(http://fonts.googleapis.com/css?family=Fjalla+One); */
@@ -91,6 +90,7 @@ a:active {
 .entry-title {
   font-size: 26px;
   line-height: 30px;
+  text-transform: none;
 }
 .entry-title a,
 .entry-title a:visited {
@@ -179,7 +179,6 @@ hr {
 .widget.tight {
   margin: 0;
 }
-
 #footer {
   border-color: #411263;
   background-color: #000000;
@@ -215,7 +214,7 @@ hr {
   border: none;
   background-color: #000000;
 }
-
+/* SPECIFIC RULES */
 #post-42 h3 {
   display: inline;
 }
@@ -223,4 +222,3 @@ hr {
   display: inline;
   color: #666;
 }
-
