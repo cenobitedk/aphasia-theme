@@ -3,13 +3,12 @@
 
 <head profile="http://gmpg.org/xfn/11">
     <meta http-equiv="Content-Type" content="<?php bloginfo( 'html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
-    <meta property="og:url" content="http://www.aphasia-records.com/" />
-    <meta property="og:title" content="Aphasia Records" />
+
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
     <meta property="og:image" content="http://aphasia-records.com/img/og-image.jpg" />
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
 
-    <title><?php wp_title( '|', true, 'right' ); ?></title>
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="all" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     <?php wp_head(); ?> 
