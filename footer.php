@@ -24,7 +24,7 @@
       	<a href="http://twitter.com/AphasiaRecords/" target="_blank" class="twitter" title="Twitter">
          <img src="<?php echo get_stylesheet_directory_uri() ?>/icons/twitter-icon.png" alt="Twitter" /></a>
       </p>
-      <p>© Copyright 2013 - <a href="<?php echo home_url( '/' ); ?>">Aphasia Records</a></p>
+      <p>© Copyright <?php echo date("Y"); ?> - <a href="<?php echo home_url( '/' ); ?>">Aphasia Records</a></p>
       <?php //do_action( 'vortex_footer' ); ?>
     </div>
   </div>
