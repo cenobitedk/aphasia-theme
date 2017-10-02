@@ -1,5 +1,9 @@
 {
   "name": "cenobitedk/aphasia-theme",
   "description": "Child theme for aphasia records based on \"vortex\".",
-  "type": "wordpress-theme"
+  "type": "wordpress-theme",
+  "version": "1.0.0",
+  "require": {
+    "composer/installers": "~1.0"
+  }
 }
