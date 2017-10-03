@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="all" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <?php wp_head(); ?>
-    <meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/img/og-image.jpg" />
+    <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/images/favicon.ico">
+    <meta property="og:image" content="<?php echo get_stylesheet_directory_uri(); ?>/images/og-image.jpg" />
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
     <meta property="fb:admins" content="530872406" />
