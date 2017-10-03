@@ -1,0 +1,22 @@
+{
+  "name": "aphasia-theme",
+  "version": "1.0.0",
+  "description": "aphasia-theme =============",
+  "main": "scripts/main.js",
+  "scripts": {
+    "style": "lessc style.less style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cenobitedk/aphasia-theme.git"
+  },
+  "author": "cenobitedk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cenobitedk/aphasia-theme/issues"
+  },
+  "homepage": "https://github.com/cenobitedk/aphasia-theme#readme",
+  "devDependencies": {
+    "less": "^2.7.2"
+  }
+}
