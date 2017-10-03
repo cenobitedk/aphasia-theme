@@ -1,14 +1,14 @@
-@import url("../vortex/style.css");
-@import url(http://fonts.googleapis.com/css?family=Cabin);
 /*
 Theme Name: Vortex - Aphasia
 Theme URI: http://wpvortex.com/vortex/
 Description: Vortex - Aphasia is a child theme for Vortex.
 Template: vortex
-Version: 0.2.1
+Version: 1.0.0
 */
+@import url("../vortex/style.css");
 /* FONTS */
 /* @import url(http://fonts.googleapis.com/css?family=Fjalla+One); */
+@import url(http://fonts.googleapis.com/css?family=Cabin);
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #ccc;
@@ -36,7 +36,7 @@ a:active {
 }
 #nav,
 .menu ul li {
-  background-color: #000000;
+  background-color: #000;
   border-color: #411263;
 }
 .menu ul li {
@@ -51,7 +51,7 @@ a:active {
   text-align: center;
 }
 #header:after {
-  content: url(tagline.png);
+  content: url(images/tagline.png);
   position: relative;
   left: 50%;
   top: 20px;
@@ -164,7 +164,7 @@ hr {
 .type-page,
 .no-results,
 .not-found {
-  background-color: #000000;
+  background-color: #000;
   padding: 10px 10px 30px;
   margin-bottom: 50px;
 }
@@ -174,14 +174,14 @@ hr {
 .widget {
   margin-bottom: 40px;
   padding: 10px;
-  background-color: #000000;
+  background-color: #000;
 }
 .widget.tight {
   margin: 0;
 }
 #footer {
   border-color: #411263;
-  background-color: #000000;
+  background-color: #000;
   padding-bottom: 50px;
 }
 #footer p {
@@ -212,7 +212,7 @@ hr {
 .commentlist li.comment,
 .commentlist li.pingback {
   border: none;
-  background-color: #000000;
+  background-color: #000;
 }
 /* SPECIFIC RULES */
 #post-42 h3 {
